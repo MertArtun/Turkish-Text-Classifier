@@ -1,0 +1,9 @@
+models:
+  - name: bert512
+    path: ./models/bert512_model
+    max_length: 512
+    device: auto      # "cuda", "cpu" veya "auto"
+  - name: modernbert2048
+    path: ./models/modernbert2048_model
+    max_length: 2048
+    device: auto
